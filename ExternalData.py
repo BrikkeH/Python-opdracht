@@ -4,9 +4,9 @@ import json
 import sqlite3
 from datetime import datetime
 
-db = sqlite3.connect("E:\\brikk\\Documents\\NxT-2\\WebDevelopment\\db\\mydb.db")
+db = sqlite3.connect("C:\\Users\\brikk\\OneDrive\\Documenten\\GitHub\\Python-opdracht\\db\\mydb.db")
 
-with open('E:\\brikk\\Documents\\NxT-2\\WebDevelopment\\Antwerpdata.json', encoding='utf-8-sig') as json_file:
+with open('"C:\\Users\\brikk\\OneDrive\\Documenten\\GitHub\\Python-opdracht\\Antwerpdata.json', encoding='utf-8-sig') as json_file:
     json_data = json.loads(json_file.read())
 
     columns = []
