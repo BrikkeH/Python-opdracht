@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<div class="alert alert-warning" role="alert">
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <p>{{msg}}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+</div>
+<h1>Brikke Huygen</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui explicabo vel rerum veniam? Corrupti sit quo alias facilis, fugiat aut nostrum asperiores sapiente dolorem assumenda dolor deserunt voluptatibus enim dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum eos repellendus unde praesentium quam soluta, doloribus beatae ut deleniti, facere voluptatem illo vel dolorem vero cumque, magni reprehenderit doloremque.</p>
+{% endblock %}

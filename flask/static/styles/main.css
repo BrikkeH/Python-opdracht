@@ -1,0 +1,42 @@
+.wrapper{
+    background-color: skyblue;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    background-color: none;
+    margin-top: 50px;
+    min-height: 432px;
+}
+.tel{
+    margin-bottom: 80px;
+}
+#contact{
+	background-color: rgb(190, 190, 190);
+    padding-bottom:8px;
+    text-align: center;
+    justify-content: center;
+}
+#contact a{
+    color: black;
+}
+.social-icons{
+	position: relative;
+	display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.social-button{
+    margin: 10px;
+}
+.icons{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.contactinfo{
+    margin-bottom: 50px;
+}
